@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zylo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN (v6.5) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+    <ul class="nav-links" id="menu">
+      <li class="dropdown">
+        <a id="three-bar" href="#" onclick="toggleDropdown(event)">☰</a>
+        <div class="dropdown-content">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+          <a href="#">Policies</a>
+          <a href="#">My Account</a>
+          <a href="#">My Wish Lists</a>
+        </div>
+      </li>
+      
+      <li class="logo">
+        <img src="Images/Zylo.png" alt="Logo">
+      </li>
+
+      <li>
+        <div class="search-box">
+          <i class="fa fa-search search-icon"></i>
+          <input type="text" placeholder="Search item">
+        </div>
+
+        <li class="wish-list">
+          <img src="Images/wishlist.png" alt="Wish List">
+        </li>
+
+        <li class="cart">
+          <img src="Images/cart.png" alt="cart">
+        </li>
+            
+      </ul>
+    </nav>
+  </div>
+
+  <div class="carousel-container">
+    <button class="nav left" onclick="scrollLeft()">&#10094;</button>
+  
+    <div class="carousel" id="carousel">
+      <img src="Images/sale.jpg" alt="1">
+      <img src="Images/sales_2.jpg" alt="2">
+      <img src="Images/sales_3.avif" alt="3">
+      <img src="Images/sales_4.jpg" alt="4">
+      <img src="Images/sales_5.jpg" alt="5">
+    </div>
+  
+    <button class="nav right" onclick="scrollRight()">&#10095;</button>
+  </div>
+
+  <div class="container">
+    <a href="#" class="category-link">
+        <div class="category">
+            <div class="image-container">
+                <img src="Images/Men's wear.png" alt="Men's Wear">
+            </div>
+            <div class="label">Men's wear</div>
+        </div>
+    </a>
+    <a href="#" class="category-link">
+        <div class="category">
+            <div class="image-container">
+                <img src="Images/Women's wear.png" alt="Women's Wear">
+            </div>
+            <div class="label">Women's wear</div>
+        </div>
+    </a>
+    <a href="#" class="category-link">
+        <div class="category">
+            <div class="image-container">
+                <img src="Images/Kid's wear.png" alt="Kid's wear">
+            </div>
+            <div class="label">Kid's wear</div>
+        </div>
+    </a>
+    <a href="#" class="category-link">
+        <div class="category">
+            <div class="image-container">
+                <img src="Images/Baby wear.png" alt="Baby wear">
+            </div>
+            <div class="label">Baby wear</div>
+        </div>
+    </a>
+    <a href="#" class="category-link">
+        <div class="category">
+            <div class="image-container">
+                <img src="Images/Accessories.png" alt="Accessories">
+            </div>
+            <div class="label">Accessories</div>
+        </div>
+    </a>
+    </div>
+   <div class="New-arrivals">
+    <h1>New Arrivals</h1>
+   </div>
+
+    
+    <div class="sliding-images-container">
+      <button class="nav left" onclick="scrollLeft()">&#10094;</button>
+    
+      <div class="sliding-images" id="sliding-images">
+        <img src="Images/Component 1.png" alt="1">
+        <img src="Images/Component 2.png" alt="2">
+        <img src="Images/sales_3.avif" alt="3">
+        <img src="Images/sales_4.jpg" alt="4">
+        <img src="Images/sales_5.jpg" alt="5">
+      </div>
+    
+      <button class="nav right" onclick="scrollRight()">&#10095;</button>
+    </div>
+
+    <div class="sliding-images-2-container">
+      <button class="nav left" onclick="scrollLeft()">&#10094;</button>
+    
+      <div class="sliding-images-2" id="sliding-images-2">
+        <img src="Images/discount.webp" alt="1">
+        <img src="Images/lehenga.jpg" alt="2">
+        <img src="Images/men's ethnic.avif" alt="3">
+        <img src="Images/ehnic.jpeg" alt="4">
+     
+      </div>
+    
+      <button class="nav right" onclick="scrollRight()">&#10095;</button>
+    </div>
+
+    <div class="New-arrivals">
+      <h1>Crazy Deals</h1>
+     </div>
+    <div class="sliding-images-3-container">
+      <button class="nav left" onclick="scrollLeft()">&#10094;</button>
+    
+      <div class="sliding-images-3" id="sliding-images-3">
+        <img src="Images/Component 1.png" alt="1">
+        <img src="Images/Component 2.png" alt="2">
+        <img src="Images/sales_3.avif" alt="3">
+        <img src="Images/sales_4.jpg" alt="4">
+        <img src="Images/sales_5.jpg" alt="5">
+      </div>
+    
+      <button class="nav right" onclick="scrollRight()">&#10095;</button>
+    </div>
+    
+    
+    
+    
+<script src="script.js"></script>
+</body>
+</html>
